@@ -3,7 +3,7 @@
                 <div class="nav-collapse sidebar-nav">
                     <ul class="nav nav-tabs nav-stacked main-menu">
                         <?php if($this->session->userdata('level')==3){ 
-                            $con=new PDO("mysql:host=localhost;dbname=school","root","");
+                            $con=new PDO("mysql:host=localhost;dbname=school-project","root","1234");
                             $email = $this->session->userdata('email');    
                          $student_info=$con->prepare("SELECT  s1.student_id,s1.adm_no,s1.fname,s1.lname,s1.email,s1.doa,s1.dob,s1.class_id,
     s1.stream_id,c1.class, t1.stream_name

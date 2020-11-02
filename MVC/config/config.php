@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://school-project.io';
+$config['base_url']	= 'http://school-project.test';
 
 /*
 |--------------------------------------------------------------------------
